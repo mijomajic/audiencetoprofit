@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Apply for the Revenue Engine | AudienceToProfit</title>
+	<title>Apply for the A2P Discovery call | AudienceToProfit</title>
 </svelte:head>
 
 <div class="min-h-screen bg-hero-gradient relative overflow-hidden pt-32 md:pt-36 pb-10">
@@ -13,11 +13,11 @@
 			<h1
 				class="text-[36px] md:text-5xl font-bold tracking-tight mb-4 md:mb-6 text-white text-gradient-metallic-dark block py-2 overflow-visible leading-[1.15]"
 			>
-				Apply for the <br class="md:hidden" /> 90-Day Revenue Engine
+				Apply for the <br class="md:hidden" /> A2P Discovery call
 			</h1>
-			<p class="text-base md:text-xl text-[#8F8F8F] max-w-2xl mx-auto leading-relaxed">
-				This is a 30-minute call to diagnose where your attention is leaking and map the system to
-				turn it into revenue.
+			<p class="text-base md:text-xl text-[#8F8F8F] max-w-2xl mx-auto leading-relaxed px-2">
+				A 30-minute strategy call for fitness creators with an audience, designed to identify where
+				attention is leaking and map a clear path to predictable revenue.
 			</p>
 		</section>
 
