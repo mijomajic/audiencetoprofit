@@ -17,7 +17,7 @@
 <nav
 	class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b border-white/5 {mobileMenuOpen
 		? 'bg-[#141414]'
-		: 'bg-[#141414]/40 backdrop-blur-xl supports-[backdrop-filter]:bg-[#141414]/20'}"
+		: 'bg-[#141414]/80 backdrop-blur-xl supports-[backdrop-filter]:bg-[#141414]/70'}"
 >
 	<div class="container mx-auto px-6 h-20 flex items-center justify-between">
 		<!-- Logo -->
@@ -30,9 +30,9 @@
 			/>
 			<!-- Mobile Wordmark -->
 			<img
-				src="/logo/A2P_WORDMARK_MOBILE_WHITE.svg"
+				src="/logo/A2P_WORDMARK_MOBILE_WHITE.png"
 				alt="MMDIGITALS"
-				class="block md:hidden h-[18px] w-auto object-contain"
+				class="block md:hidden h-[20px] w-auto object-contain"
 			/>
 		</a>
 

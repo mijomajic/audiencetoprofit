@@ -24,16 +24,16 @@
 
 			<!-- Headline -->
 			<h1
-				class="text-[36px] md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 md:mb-8 leading-[1.15] md:leading-[1.1] max-w-5xl mx-auto break-words w-full px-2 md:px-0"
+				class="text-[28px] min-[390px]:text-[32px] md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 md:mb-8 leading-[1.15] md:leading-[1.1] max-w-5xl mx-auto break-words w-full px-2 md:px-0"
 			>
 				<span class="text-gradient-metallic-dark block"
-					>Turn your audience into consistent $10k-$50k+ months in 90 days.</span
+					>Turn your audience into consistent $10k-$50k+ months in 90&nbsp;days.</span
 				>
 			</h1>
 
 			<!-- Subheadline -->
 			<p
-				class="text-base md:text-xl text-[#8F8F8F] max-w-[700px] mx-auto mb-10 md:mb-12 leading-relaxed font-light px-2 md:px-0"
+				class="text-base md:text-xl text-[#8F8F8F] max-w-[700px] mx-auto mb-10 md:mb-12 leading-relaxed font-light px-2 md:px-0 [text-wrap:balance]"
 			>
 				I install your product, offer, funnel, email and AI automations so your content stops
 				creating "engagement" and starts creating buyers on repeat.
@@ -57,7 +57,10 @@
 				<p
 					class="text-sm md:text-lg font-medium tracking-wide text-[#8F8F8F] px-4 md:px-0 leading-relaxed text-center"
 				>
-					<span class="inline md:inline">10M+ views generated • 6-figures from pipelines</span>
+					<span class="block md:inline">10M+ views generated</span>
+					<span class="block md:inline md:before:content-['_•_'] md:before:mx-1"
+						>6-figures from pipelines</span
+					>
 					<span class="block md:inline md:before:content-['_•_'] md:before:mx-1">Ex-CMO</span>
 				</p>
 			</div>

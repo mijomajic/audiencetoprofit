@@ -15,7 +15,7 @@
 			>
 				Apply for the <br class="md:hidden" /> A2P Discovery call
 			</h1>
-			<p class="text-base md:text-xl text-[#8F8F8F] max-w-2xl mx-auto leading-relaxed px-2">
+			<p class="text-base md:text-xl text-[#8F8F8F] max-w-4xl mx-auto leading-relaxed px-2">
 				A 30-minute strategy call for fitness creators with an audience, designed to identify where
 				attention is leaking and map a clear path to predictable revenue.
 			</p>
