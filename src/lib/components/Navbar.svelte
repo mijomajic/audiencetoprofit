@@ -23,13 +23,20 @@
 		</a>
 
 		<!-- Navigation CTA -->
-		<div class="flex items-center">
+		<div class="flex items-center gap-6">
+			<a
+				href="https://www.linkedin.com/in/mijomajic/"
+				target="_blank"
+				class="text-[12px] md:text-[13px] font-medium text-white/60 hover:text-white transition-colors"
+			>
+				LinkedIn
+			</a>
 			<Button
 				href="https://calendly.com/eastlineconsulting/30min"
 				target="_blank"
 				class="h-9 md:h-10 px-4 md:px-6 text-[12px] md:text-[13px] font-medium rounded-full bg-white/10 border border-white/25 text-white hover:bg-white/15 hover:shadow-[0_0_20px_rgba(255,255,255,0.1)] transition-[background-color,box-shadow] duration-300 backdrop-blur-sm"
 			>
-				Get your 15 prospects
+				Book 15 qualified calls
 			</Button>
 		</div>
 	</div>

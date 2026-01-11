@@ -20,10 +20,15 @@
 			<!-- Links -->
 			<div class="flex items-center gap-6">
 				<a
-					href="https://calendly.com/audiencetoprofit/a2p-discovery"
+					href="https://www.linkedin.com/in/mijomajic/"
+					target="_blank"
+					class="text-xs text-[#8F8F8F] hover:text-[#F0F0F0] transition-colors">LinkedIn</a
+				>
+				<a
+					href="https://calendly.com/eastlineconsulting/30min"
 					target="_blank"
 					class="text-xs text-[#8F8F8F] hover:text-[#F0F0F0] transition-colors"
-					>Get your 15 prospects</a
+					>Book 15 qualified calls</a
 				>
 			</div>
 		</div>

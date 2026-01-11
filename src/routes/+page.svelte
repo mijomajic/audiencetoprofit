@@ -97,7 +97,7 @@
 					: 'opacity-0 translate-y-8 blur-[10px]'}"
 			>
 				<span class="text-gradient-metallic-dark block"
-					>DFY cold email systems that put 15 qualified prospects in your inbox in 60 days or less -
+					>DFY cold email systems that put 15 qualified calls in your calendar in 90 days or less -
 					guaranteed</span
 				>
 			</h1>
@@ -108,7 +108,7 @@
 					? 'opacity-100 translate-y-0 blur-0'
 					: 'opacity-0 translate-y-8 blur-[5px]'}"
 			>
-				We build the system, launch it, and put qualified prospects in your inbox while you focus on
+				We build the system, launch it, and put qualified calls in your calendar while you focus on
 				closing. If we fail our promise we give you a full refund.
 			</p>
 
@@ -123,7 +123,7 @@
 					target="_blank"
 					class="h-14 px-10 text-[15px] font-medium rounded-full bg-white/10 border border-white/25 text-white hover:bg-white/15 hover:shadow-[0_0_20px_rgba(255,255,255,0.1)] transition-[background-color,box-shadow,transform,border-color] duration-300 backdrop-blur-sm animate-shine"
 				>
-					Get your 15 prospects
+					Book 15 qualified calls
 				</Button>
 				<p class="mt-3 md:mt-4 text-sm text-[#8F8F8F] font-light">See if you qualify.</p>
 			</div>
@@ -209,7 +209,7 @@
 						class="flex flex-col md:flex-row items-start md:items-center md:justify-center gap-3 mt-8"
 					>
 						<span
-							class="px-5 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-sm border border-[#C8C8C8] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-sm text-[#141414] font-semibold hover:border-[#141414]/30 hover:scale-105 hover:-translate-y-0.5 active:scale-95 transition-[opacity,transform] duration-700 delay-[600ms] {visibleSteps.has(
+							class="px-5 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-sm border border-[#C8C8C8] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-sm text-[#141414] font-semibold transition-[opacity,transform] duration-700 delay-[600ms] {visibleSteps.has(
 								'1'
 							)
 								? 'opacity-100 translate-y-0'
@@ -218,7 +218,7 @@
 							ICP + buyer psychology
 						</span>
 						<span
-							class="px-5 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-sm border border-[#C8C8C8] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-sm text-[#141414] font-semibold hover:border-[#141414]/30 hover:scale-105 hover:-translate-y-0.5 active:scale-95 transition-[opacity,transform] duration-700 delay-[700ms] {visibleSteps.has(
+							class="px-5 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-sm border border-[#C8C8C8] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-sm text-[#141414] font-semibold transition-[opacity,transform] duration-700 delay-[700ms] {visibleSteps.has(
 								'1'
 							)
 								? 'opacity-100 translate-y-0'
@@ -227,7 +227,7 @@
 							Offer positioning
 						</span>
 						<span
-							class="px-5 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-sm border border-[#C8C8C8] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-sm text-[#141414] font-semibold hover:border-[#141414]/30 hover:scale-105 hover:-translate-y-0.5 active:scale-95 transition-[opacity,transform] duration-700 delay-[800ms] {visibleSteps.has(
+							class="px-5 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-sm border border-[#C8C8C8] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-sm text-[#141414] font-semibold transition-[opacity,transform] duration-700 delay-[800ms] {visibleSteps.has(
 								'1'
 							)
 								? 'opacity-100 translate-y-0'
@@ -267,17 +267,17 @@
 						class="flex flex-col md:flex-row items-start md:items-center md:justify-center gap-3 mt-8"
 					>
 						<span
-							class="px-5 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-sm border border-[#C8C8C8] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-sm text-[#141414] font-semibold hover:border-[#141414]/30 hover:scale-105 hover:-translate-y-0.5 active:scale-95 transition-all duration-300"
+							class="px-5 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-sm border border-[#C8C8C8] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-sm text-[#141414] font-semibold transition-all duration-300"
 						>
 							High quality lead list
 						</span>
 						<span
-							class="px-5 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-sm border border-[#C8C8C8] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-sm text-[#141414] font-semibold hover:border-[#141414]/30 hover:scale-105 hover:-translate-y-0.5 active:scale-95 transition-all duration-300"
+							class="px-5 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-sm border border-[#C8C8C8] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-sm text-[#141414] font-semibold transition-all duration-300"
 						>
 							Verification + Anti-bounce
 						</span>
 						<span
-							class="px-5 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-sm border border-[#C8C8C8] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-sm text-[#141414] font-semibold hover:border-[#141414]/30 hover:scale-105 hover:-translate-y-0.5 active:scale-95 transition-all duration-300"
+							class="px-5 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-sm border border-[#C8C8C8] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-sm text-[#141414] font-semibold transition-all duration-300"
 						>
 							Segments by industry & title
 						</span>
@@ -313,17 +313,17 @@
 						class="flex flex-col md:flex-row items-start md:items-center md:justify-center gap-3 mt-8"
 					>
 						<span
-							class="px-5 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-sm border border-[#C8C8C8] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-sm text-[#141414] font-semibold hover:border-[#141414]/30 hover:scale-105 hover:-translate-y-0.5 active:scale-95 transition-all duration-300"
+							class="px-5 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-sm border border-[#C8C8C8] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-sm text-[#141414] font-semibold transition-all duration-300"
 						>
 							Multi-domain + multi-inbox
 						</span>
 						<span
-							class="px-5 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-sm border border-[#C8C8C8] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-sm text-[#141414] font-semibold hover:border-[#141414]/30 hover:scale-105 hover:-translate-y-0.5 active:scale-95 transition-all duration-300"
+							class="px-5 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-sm border border-[#C8C8C8] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-sm text-[#141414] font-semibold transition-all duration-300"
 						>
 							SPF, DKIM, DMARC setup
 						</span>
 						<span
-							class="px-5 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-sm border border-[#C8C8C8] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-sm text-[#141414] font-semibold hover:border-[#141414]/30 hover:scale-105 hover:-translate-y-0.5 active:scale-95 transition-all duration-300"
+							class="px-5 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-sm border border-[#C8C8C8] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-sm text-[#141414] font-semibold transition-all duration-300"
 						>
 							Warmup + Inbox health
 						</span>
@@ -359,17 +359,17 @@
 						class="flex flex-col md:flex-row items-start md:items-center md:justify-center gap-3 mt-8"
 					>
 						<span
-							class="px-5 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-sm border border-[#C8C8C8] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-sm text-[#141414] font-semibold hover:border-[#141414]/30 hover:scale-105 hover:-translate-y-0.5 active:scale-95 transition-all duration-300"
+							class="px-5 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-sm border border-[#C8C8C8] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-sm text-[#141414] font-semibold transition-all duration-300"
 						>
 							Direct-response writing
 						</span>
 						<span
-							class="px-5 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-sm border border-[#C8C8C8] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-sm text-[#141414] font-semibold hover:border-[#141414]/30 hover:scale-105 hover:-translate-y-0.5 active:scale-95 transition-all duration-300"
+							class="px-5 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-sm border border-[#C8C8C8] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-sm text-[#141414] font-semibold transition-all duration-300"
 						>
 							Objection handling
 						</span>
 						<span
-							class="px-5 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-sm border border-[#C8C8C8] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-sm text-[#141414] font-semibold hover:border-[#141414]/30 hover:scale-105 hover:-translate-y-0.5 active:scale-95 transition-all duration-300"
+							class="px-5 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-sm border border-[#C8C8C8] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-sm text-[#141414] font-semibold transition-all duration-300"
 						>
 							Personalization frameworks
 						</span>
@@ -405,17 +405,17 @@
 						class="flex flex-col md:flex-row items-start md:items-center md:justify-center gap-3 mt-8"
 					>
 						<span
-							class="px-5 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-sm border border-[#C8C8C8] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-sm text-[#141414] font-semibold hover:border-[#141414]/30 hover:scale-105 hover:-translate-y-0.5 active:scale-95 transition-all duration-300"
+							class="px-5 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-sm border border-[#C8C8C8] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-sm text-[#141414] font-semibold transition-all duration-300"
 						>
 							Campaign management
 						</span>
 						<span
-							class="px-5 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-sm border border-[#C8C8C8] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-sm text-[#141414] font-semibold hover:border-[#141414]/30 hover:scale-105 hover:-translate-y-0.5 active:scale-95 transition-all duration-300"
+							class="px-5 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-sm border border-[#C8C8C8] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-sm text-[#141414] font-semibold transition-all duration-300"
 						>
 							Reply handling
 						</span>
 						<span
-							class="px-5 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-sm border border-[#C8C8C8] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-sm text-[#141414] font-semibold hover:border-[#141414]/30 hover:scale-105 hover:-translate-y-0.5 active:scale-95 transition-all duration-300"
+							class="px-5 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-sm border border-[#C8C8C8] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-sm text-[#141414] font-semibold transition-all duration-300"
 						>
 							Lead routing
 						</span>
@@ -450,17 +450,17 @@
 						class="flex flex-col md:flex-row items-start md:items-center md:justify-center gap-3 mt-8"
 					>
 						<span
-							class="px-5 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-sm border border-[#C8C8C8] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-sm text-[#141414] font-semibold hover:border-[#141414]/30 hover:scale-105 hover:-translate-y-0.5 active:scale-95 transition-all duration-300"
+							class="px-5 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-sm border border-[#C8C8C8] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-sm text-[#141414] font-semibold transition-all duration-300"
 						>
 							Weekly performance reporting
 						</span>
 						<span
-							class="px-5 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-sm border border-[#C8C8C8] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-sm text-[#141414] font-semibold hover:border-[#141414]/30 hover:scale-105 hover:-translate-y-0.5 active:scale-95 transition-all duration-300"
+							class="px-5 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-sm border border-[#C8C8C8] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-sm text-[#141414] font-semibold transition-all duration-300"
 						>
 							Iteration plan based on data
 						</span>
 						<span
-							class="px-5 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-sm border border-[#C8C8C8] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-sm text-[#141414] font-semibold hover:border-[#141414]/30 hover:scale-105 hover:-translate-y-0.5 active:scale-95 transition-all duration-300"
+							class="px-5 py-2.5 rounded-full bg-[#F5F5F7]/80 backdrop-blur-sm border border-[#C8C8C8] shadow-[0_1px_2px_rgba(0,0,0,0.05)] text-sm text-[#141414] font-semibold transition-all duration-300"
 						>
 							Scale-up strategy
 						</span>
@@ -531,7 +531,7 @@
 								class="h-14 px-10 text-[16px] font-medium rounded-full bg-white/10 border border-white/25 text-white hover:bg-white/15 hover:shadow-[0_0_20px_rgba(255,255,255,0.1)] transition-[background-color,box-shadow,transform,border-color] duration-300 backdrop-blur-sm animate-shine group"
 							>
 								<span class="relative z-10 flex items-center gap-2 font-semibold">
-									Get your 15 prospects
+									Book 15 qualified calls
 									<svg
 										xmlns="http://www.w3.org/2000/svg"
 										width="18"
@@ -561,7 +561,7 @@
 										class="text-white font-medium uppercase tracking-wider text-xs block mb-2 border-b border-white/20 pb-1 w-fit mx-auto"
 										>The Results Guarantee</span
 									>
-									15 qualified prospects in your inbox in 60 days or less, or you get a full refund.
+									15 qualified calls in your calendar in 90 days or less, or you get a full refund.
 								</p>
 							</div>
 						</div>
