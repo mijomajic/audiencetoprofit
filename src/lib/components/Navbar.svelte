@@ -3,7 +3,7 @@
 </script>
 
 <nav
-	class="fixed top-0 left-0 right-0 z-50 transition-[background-color,backdrop-filter] duration-300 border-b border-white/5 bg-[#141414]/80 backdrop-blur-xl supports-[backdrop-filter]:bg-[#141414]/70"
+	class="fixed top-0 left-0 right-0 z-50 transition-[background-color,backdrop-filter] duration-300 border-b border-white/5 bg-[#141414]/95 backdrop-blur-xl supports-[backdrop-filter]:bg-[#141414]/90"
 >
 	<div class="container mx-auto px-6 h-20 flex items-center justify-between">
 		<!-- Logo -->
@@ -25,7 +25,7 @@
 		<!-- Navigation CTA -->
 		<div class="flex items-center">
 			<Button
-				href="https://calendly.com/audiencetoprofit/a2p-discovery"
+				href="https://calendly.com/eastlineconsulting/30min"
 				target="_blank"
 				class="h-9 md:h-10 px-4 md:px-6 text-[12px] md:text-[13px] font-medium rounded-full bg-white/10 border border-white/25 text-white hover:bg-white/15 hover:shadow-[0_0_20px_rgba(255,255,255,0.1)] transition-[background-color,box-shadow] duration-300 backdrop-blur-sm"
 			>

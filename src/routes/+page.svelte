@@ -56,13 +56,38 @@
 				? 'opacity-100 translate-y-0'
 				: 'opacity-0 translate-y-8'}"
 		>
-			<!-- Top Label -->
-			<div class="mb-6 md:mb-8 delay-100 duration-1000">
-				<span
-					class="text-[11px] md:text-sm font-medium uppercase tracking-[0.25em] md:tracking-[0.3em] text-[#8F8F8F] leading-tight"
-				>
-					FOR HIGH TICKET SERVICE PROVIDERS
-				</span>
+			<!-- Elevated Achievements Row (Eyebrow) -->
+			<div
+				class="flex items-center justify-center gap-6 md:gap-10 mb-8 delay-100 duration-1000 transition-[opacity,transform] {heroVisible
+					? 'opacity-100 translate-y-0'
+					: 'opacity-0 translate-y-8'}"
+			>
+				<div class="flex items-center gap-3">
+					<div
+						class="w-2 h-2 rounded-full bg-white/10 flex items-center justify-center border border-white/10"
+					>
+						<div
+							class="w-1 h-1 rounded-full bg-white/40 shadow-[0_0_8px_rgba(255,255,255,0.3)]"
+						></div>
+					</div>
+					<span
+						class="text-[11px] md:text-[13px] font-bold uppercase tracking-[0.3em] text-white/90 mr-[-0.3em]"
+						>Ex-CMO</span
+					>
+				</div>
+				<div class="flex items-center gap-3">
+					<div
+						class="w-2 h-2 rounded-full bg-white/10 flex items-center justify-center border border-white/10"
+					>
+						<div
+							class="w-1 h-1 rounded-full bg-white/40 shadow-[0_0_8px_rgba(255,255,255,0.3)]"
+						></div>
+					</div>
+					<span
+						class="text-[11px] md:text-[13px] font-bold uppercase tracking-[0.3em] text-white/90 mr-[-0.3em]"
+						>$250k Generated</span
+					>
+				</div>
 			</div>
 
 			<!-- Headline -->
@@ -94,26 +119,41 @@
 					: 'opacity-0 translate-y-8'}"
 			>
 				<Button
-					href="https://calendly.com/audiencetoprofit/a2p-discovery"
+					href="https://calendly.com/eastlineconsulting/30min"
 					target="_blank"
-					class="h-14 px-10 text-[15px] font-medium rounded-full bg-white/10 border border-white/25 text-white hover:bg-white/15 hover:shadow-[0_0_20px_rgba(255,255,255,0.1)] transition-all duration-300 backdrop-blur-sm animate-shine"
+					class="h-14 px-10 text-[15px] font-medium rounded-full bg-white/10 border border-white/25 text-white hover:bg-white/15 hover:shadow-[0_0_20px_rgba(255,255,255,0.1)] transition-[background-color,box-shadow,transform,border-color] duration-300 backdrop-blur-sm animate-shine"
 				>
 					Get your 15 prospects
 				</Button>
 				<p class="mt-3 md:mt-4 text-sm text-[#8F8F8F] font-light">See if you qualify.</p>
 			</div>
+		</div>
 
-			<!-- Achievements Row -->
-			<div
-				class="flex flex-col items-center gap-5 my-0 md:my-6 delay-900 duration-1000 transition-[opacity,transform] {heroVisible
-					? 'opacity-100 translate-y-0'
-					: 'opacity-0 translate-y-8'}"
-			>
-				<p
-					class="text-sm md:text-lg font-medium tracking-wide text-[#8F8F8F] px-4 md:px-0 leading-relaxed text-center"
-				>
-					Ex-CMO • $250k in email pipeline generated
-				</p>
+		<div
+			class="absolute bottom-8 md:bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 md:gap-3 delay-[1200ms] duration-1000 transition-[opacity,transform] {heroVisible
+				? 'opacity-100 translate-y-0'
+				: 'opacity-0 translate-y-4'}"
+		>
+			<div class="flex flex-col items-center gap-2">
+				<span class="text-[10px] font-bold tracking-[0.2em] uppercase text-[#8F8F8F] mr-[-0.2em]">
+					See how it works
+				</span>
+				<div class="flex items-center justify-center h-6">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="18"
+						height="18"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						class="text-[#8F8F8F] animate-bounce"
+					>
+						<path d="M7 13l5 5 5-5" />
+					</svg>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -486,9 +526,9 @@
 								: 'opacity-0 translate-y-8'}"
 						>
 							<Button
-								href="https://calendly.com/audiencetoprofit/a2p-discovery"
+								href="https://calendly.com/eastlineconsulting/30min"
 								target="_blank"
-								class="h-14 px-10 text-[16px] font-medium rounded-full bg-white/10 border border-white/25 text-white hover:bg-white/15 hover:shadow-[0_0_20px_rgba(255,255,255,0.1)] transition-all duration-300 backdrop-blur-sm animate-shine group"
+								class="h-14 px-10 text-[16px] font-medium rounded-full bg-white/10 border border-white/25 text-white hover:bg-white/15 hover:shadow-[0_0_20px_rgba(255,255,255,0.1)] transition-[background-color,box-shadow,transform,border-color] duration-300 backdrop-blur-sm animate-shine group"
 							>
 								<span class="relative z-10 flex items-center gap-2 font-semibold">
 									Get your 15 prospects
