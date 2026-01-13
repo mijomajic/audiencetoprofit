@@ -1190,7 +1190,7 @@
 						</div>
 
 						<p class="text-[#8F8F8F] text-sm">
-							8-week implementation · No long-term lock-in · We work until it's done
+							8-week implementation · No long-term lock-in · Payment plans
 						</p>
 					</div>
 				</div>
