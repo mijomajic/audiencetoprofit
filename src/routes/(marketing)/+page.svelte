@@ -66,10 +66,10 @@
 </script>
 
 <svelte:head>
-	<title>B2B Growth Print Playbook | Replace Your Marketing & Sales Department</title>
+	<title>The B2B Growth Print Playbook | EastLine Consulting</title>
 	<meta
 		name="description"
-		content="We design and implement a complete B2B SaaS growth engine across acquisition, conversion, and retention, for companies doing $20K-$200K/month."
+		content="Replace your marketing & sales department with a proven system. architected by Mijo Majic. $250k+ pipeline generated for B2B SaaS."
 	/>
 </svelte:head>
 
