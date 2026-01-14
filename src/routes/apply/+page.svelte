@@ -32,8 +32,7 @@
 			if (!formData.timing) return;
 			if (formData.timing === 'Just exploring' && !formData.timingReason) return;
 		}
-		if (step === 6 && !formData.investmentAligned) return;
-		if (step === 7 && !formData.successVision) return;
+		if (step === 6 && !formData.successVision) return;
 
 		step++;
 	}
@@ -175,14 +174,14 @@
 
 					{#if step > 0}
 						<div class="text-[10px] font-bold tracking-[0.2em] uppercase text-[#8F8F8F]">
-							Step {step} <span class="text-[#EBEBEB] mx-1">/</span> 8
+							Step {step} <span class="text-[#EBEBEB] mx-1">/</span> 7
 						</div>
 					{/if}
 				</div>
 
 				{#if step > 0}
 					<div class="flex gap-1.5 h-1">
-						{#each Array(8) as _, i}
+						{#each Array(7) as _, i}
 							<div
 								class="flex-1 rounded-full transition-all duration-500 {i < step
 									? 'bg-[#141414]'
@@ -455,66 +454,8 @@
 				</div>
 			{/if}
 
-			<!-- Step 6: Investment Alignment -->
+			<!-- Step 6: Final Open Ended -->
 			{#if step === 6}
-				<div in:fly={{ y: 20, duration: 300, delay: 100 }}>
-					<h2 class="text-2xl font-bold mb-8">
-						The Growth Print Playbook is a $20,000, one-time implementation. Is this aligned with
-						your expectations?
-					</h2>
-
-					<div class="space-y-3">
-						<label
-							class="flex items-center p-4 rounded-xl border cursor-pointer transition-all duration-200 {formData.investmentAligned ===
-							'Yes'
-								? 'bg-[#141414] border-[#141414] text-white'
-								: 'bg-white border-[#EBEBEB] text-[#141414] hover:border-[#141414]'}"
-						>
-							<input
-								type="radio"
-								name="investment_aligned"
-								value="Yes"
-								bind:group={formData.investmentAligned}
-								class="sr-only"
-							/>
-							<span class="font-medium">Yes</span>
-						</label>
-						<label
-							class="flex items-center p-4 rounded-xl border cursor-pointer transition-all duration-200 {formData.investmentAligned ===
-							'Needs discussion'
-								? 'bg-[#141414] border-[#141414] text-white'
-								: 'bg-white border-[#EBEBEB] text-[#141414] hover:border-[#141414]'}"
-						>
-							<input
-								type="radio"
-								name="investment_aligned"
-								value="Needs discussion"
-								bind:group={formData.investmentAligned}
-								class="sr-only"
-							/>
-							<span class="font-medium">I’d need to discuss internally</span>
-						</label>
-						<label
-							class="flex items-center p-4 rounded-xl border cursor-pointer transition-all duration-200 {formData.investmentAligned ===
-							'No'
-								? 'bg-[#141414] border-[#141414] text-white'
-								: 'bg-white border-[#EBEBEB] text-[#141414] hover:border-[#141414]'}"
-						>
-							<input
-								type="radio"
-								name="investment_aligned"
-								value="No"
-								bind:group={formData.investmentAligned}
-								class="sr-only"
-							/>
-							<span class="font-medium">No</span>
-						</label>
-					</div>
-				</div>
-			{/if}
-
-			<!-- Step 7: Final Open Ended -->
-			{#if step === 7}
 				<div in:fly={{ y: 20, duration: 300, delay: 100 }}>
 					<h2 class="text-2xl font-bold mb-8">
 						Briefly describe what success would look like 6 months from now if this system worked
@@ -531,8 +472,8 @@
 				</div>
 			{/if}
 
-			<!-- Step 8: Contact -->
-			{#if step === 8}
+			<!-- Step 7: Contact -->
+			{#if step === 7}
 				<div in:fly={{ y: 20, duration: 300, delay: 100 }}>
 					<h2 class="text-2xl font-bold mb-8">Where should we send the next steps?</h2>
 
@@ -584,8 +525,8 @@
 				</div>
 			{/if}
 
-			<!-- Navigation Buttons for Steps 1-7 -->
-			{#if step > 0 && step < 8}
+			<!-- Navigation Buttons for Steps 1-6 -->
+			{#if step > 0 && step < 7}
 				<div class="flex items-center gap-4 mt-12 pt-8 border-t border-[#F5F5F5]">
 					<button
 						type="button"

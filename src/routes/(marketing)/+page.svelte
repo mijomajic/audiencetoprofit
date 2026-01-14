@@ -46,8 +46,6 @@
 			'pillar-1',
 			'pillar-2',
 			'pillar-3',
-			'savings',
-			'modular',
 			'founder',
 			'final-cta'
 		];
@@ -69,15 +67,15 @@
 	<title>The B2B Growth Print Playbook | EastLine Consulting</title>
 	<meta
 		name="description"
-		content="Replace your marketing & sales department with a proven system. architected by Mijo Majic. $250k+ pipeline generated for B2B SaaS."
+		content="Get 30 qualified demos in 60 days or you don't pay. Architected by Mijo Majic. Proven B2B SaaS growth systems."
 	/>
 </svelte:head>
 
 <div class="flex flex-col min-h-screen bg-white font-sans text-foreground selection:bg-primary/10">
 	<!-- FLOATING NAVBAR -->
-	<nav class="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[calc(100%-2rem)] max-w-4xl">
+	<nav class="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[calc(100%-2rem)] max-w-5xl">
 		<div
-			class="flex items-center justify-between px-6 py-3 rounded-full bg-[#141414]/90 backdrop-blur-lg border border-[#333] shadow-[0_4px_20px_rgba(0,0,0,0.2)]"
+			class="flex items-center justify-between pl-8 pr-2 py-2 rounded-full bg-[#141414]/90 backdrop-blur-lg border border-[#333] shadow-[0_4px_20px_rgba(0,0,0,0.2)]"
 		>
 			<a href="/" class="flex items-center gap-2">
 				<img
@@ -133,19 +131,19 @@
 					<span
 						class="text-[11px] md:text-[12px] font-medium uppercase tracking-[0.2em] text-white/70"
 					>
-						For B2B SaaS with Product-Market Fit
+						For B2B SaaS
 					</span>
 				</div>
 			</div>
 
 			<!-- Headline -->
 			<h1
-				class="text-[28px] min-[390px]:text-[32px] md:text-5xl lg:text-[56px] font-bold tracking-tight mb-6 md:mb-8 leading-[1.15] md:leading-[1.1] max-w-5xl mx-auto break-words w-full px-2 md:px-0 delay-300 duration-1000 transition-[opacity,transform,filter] {heroVisible
+				class="text-[28px] min-[390px]:text-[32px] md:text-5xl lg:text-[56px] font-bold tracking-tight mb-6 md:mb-8 leading-[1.15] md:leading-[1.1] max-w-5xl mx-auto px-2 md:px-0 [text-wrap:balance] delay-300 duration-1000 transition-[opacity,transform,filter] {heroVisible
 					? 'opacity-100 translate-y-0 blur-0'
 					: 'opacity-0 translate-y-8 blur-[10px]'}"
 			>
-				<span class="text-gradient-metallic-dark block">
-					Replace your marketing & sales department with a system.
+				<span class="text-gradient-metallic-dark">
+					30 qualified demos in 60 days or you don't pay
 				</span>
 			</h1>
 
@@ -156,7 +154,7 @@
 					: 'opacity-0 translate-y-8 blur-[5px]'}"
 			>
 				We design and implement a complete B2B SaaS growth engine across acquisition, conversion,
-				and retention, for companies doing $20K-$200K/month.
+				and retention.
 			</p>
 
 			<!-- Supporting Bullets -->
@@ -549,44 +547,11 @@
 						</div>
 					</div>
 
-					<!-- Paid Acquisition -->
-					<div class="p-8 rounded-2xl bg-white border border-[#E5E5E5] shadow-sm">
-						<div class="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-6">
-							<div>
-								<h3 class="text-xl font-bold text-[#141414] mb-1">C. Paid Acquisition Support</h3>
-								<p class="text-sm text-[#8F8F8F]">Optional layer</p>
-							</div>
-							<span
-								class="px-3 py-1 rounded-full bg-[#141414] text-white text-xs font-medium whitespace-nowrap"
-							>
-								Replaces: Paid media strategist
-							</span>
-						</div>
-						<div class="grid sm:grid-cols-2 gap-3">
-							<div class="flex items-center gap-2 text-[#4A4A4F] text-sm">
-								<span class="w-1 h-1 rounded-full bg-[#141414]"></span>
-								<span>Paid funnel architecture</span>
-							</div>
-							<div class="flex items-center gap-2 text-[#4A4A4F] text-sm">
-								<span class="w-1 h-1 rounded-full bg-[#141414]"></span>
-								<span>Ad messaging & angles</span>
-							</div>
-							<div class="flex items-center gap-2 text-[#4A4A4F] text-sm">
-								<span class="w-1 h-1 rounded-full bg-[#141414]"></span>
-								<span>Platform audits (Google, Meta, YouTube)</span>
-							</div>
-							<div class="flex items-center gap-2 text-[#4A4A4F] text-sm">
-								<span class="w-1 h-1 rounded-full bg-[#141414]"></span>
-								<span>Testing roadmap & retargeting logic</span>
-							</div>
-						</div>
-					</div>
-
 					<!-- SEO & Organic -->
 					<div class="p-8 rounded-2xl bg-white border border-[#E5E5E5] shadow-sm">
 						<div class="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-6">
 							<div>
-								<h3 class="text-xl font-bold text-[#141414] mb-1">D. Organic Demand & SEO</h3>
+								<h3 class="text-xl font-bold text-[#141414] mb-1">C. Organic Demand & SEO</h3>
 								<p class="text-sm text-[#8F8F8F]">Including AI Discovery (GEO)</p>
 							</div>
 							<span
@@ -743,135 +708,6 @@
 						</ul>
 					</div>
 				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- SECTION 9: MODULAR ENGAGEMENT OPTIONS -->
-	<section class="py-24 md:py-32 bg-white">
-		<div class="container mx-auto px-6 md:px-4 max-w-4xl">
-			<div
-				id="modular"
-				class="text-center transition-[opacity,transform] duration-700 ease-out {modularVisible
-					? 'opacity-100 translate-y-0'
-					: 'opacity-0 translate-y-6'}"
-			>
-				<h2 class="text-3xl md:text-4xl font-bold tracking-tight mb-4 text-[#141414]">
-					You don't have to buy everything.
-				</h2>
-				<p class="text-[#8F8F8F] text-lg font-light mb-12">
-					Start where you need most, expand as you grow.
-				</p>
-
-				<div class="grid sm:grid-cols-2 gap-6 mb-12">
-					<a
-						href="/apply"
-						target="_blank"
-						class="group p-6 rounded-2xl bg-[#141414] text-white text-left hover:scale-[1.02] transition-transform duration-300 cursor-pointer"
-					>
-						<div class="flex items-center gap-2 mb-4">
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								width="20"
-								height="20"
-								viewBox="0 0 24 24"
-								fill="none"
-								stroke="currentColor"
-								stroke-width="2"
-								><path
-									d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
-								/></svg
-							>
-							<span class="text-xs font-bold tracking-wider uppercase text-white/60"
-								>Recommended</span
-							>
-						</div>
-						<h3 class="text-xl font-bold mb-2">Full Growth Print Playbook</h3>
-						<p class="text-white/60 text-sm">Complete system across all three pillars</p>
-					</a>
-					<a
-						href="/apply"
-						target="_blank"
-						class="group p-6 rounded-2xl bg-gradient-to-br from-[#E2E2E2] via-[#F8F8F8] to-[#D1D1D1] border border-[#B8B8B8] shadow-[inset_0_1px_1px_rgba(255,255,255,1),inset_0_-1px_1px_rgba(0,0,0,0.1),0_10px_30px_rgba(0,0,0,0.06)] text-left hover:scale-[1.02] transition-transform duration-300 cursor-pointer"
-					>
-						<div class="flex items-center gap-2 mb-4">
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								width="20"
-								height="20"
-								viewBox="0 0 24 24"
-								fill="none"
-								stroke="#141414"
-								stroke-width="2"
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" /><circle
-									cx="9"
-									cy="7"
-									r="4"
-								/><path d="M22 21v-2a4 4 0 0 0-3-3.87" /><path d="M16 3.13a4 4 0 0 1 0 7.75" /></svg
-							>
-						</div>
-						<h3 class="text-lg font-bold text-[#141414] mb-2">Acquisition-only systems</h3>
-						<p class="text-[#8F8F8F] text-sm">Outbound, inbound, SEO focus</p>
-					</a>
-					<a
-						href="/apply"
-						target="_blank"
-						class="group p-6 rounded-2xl bg-gradient-to-br from-[#E2E2E2] via-[#F8F8F8] to-[#D1D1D1] border border-[#B8B8B8] shadow-[inset_0_1px_1px_rgba(255,255,255,1),inset_0_-1px_1px_rgba(0,0,0,0.1),0_10px_30px_rgba(0,0,0,0.06)] text-left hover:scale-[1.02] transition-transform duration-300 cursor-pointer"
-					>
-						<div class="flex items-center gap-2 mb-4">
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								width="20"
-								height="20"
-								viewBox="0 0 24 24"
-								fill="none"
-								stroke="#141414"
-								stroke-width="2"
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								><path
-									d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"
-								/><path d="m9 12 2 2 4-4" /></svg
-							>
-						</div>
-						<h3 class="text-lg font-bold text-[#141414] mb-2">Conversion & lifecycle systems</h3>
-						<p class="text-[#8F8F8F] text-sm">CRO, email, retention focus</p>
-					</a>
-					<a
-						href="/apply"
-						target="_blank"
-						class="group p-6 rounded-2xl bg-gradient-to-br from-[#E2E2E2] via-[#F8F8F8] to-[#D1D1D1] border border-[#B8B8B8] shadow-[inset_0_1px_1px_rgba(255,255,255,1),inset_0_-1px_1px_rgba(0,0,0,0.1),0_10px_30px_rgba(0,0,0,0.06)] text-left hover:scale-[1.02] transition-transform duration-300 cursor-pointer"
-					>
-						<div class="flex items-center gap-2 mb-4">
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								width="20"
-								height="20"
-								viewBox="0 0 24 24"
-								fill="none"
-								stroke="#141414"
-								stroke-width="2"
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								><path
-									d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
-								/></svg
-							>
-						</div>
-						<h3 class="text-lg font-bold text-[#141414] mb-2">SEO & organic demand systems</h3>
-						<p class="text-[#8F8F8F] text-sm">Content, search, AI discovery focus</p>
-					</a>
-				</div>
-
-				<Button
-					href="/apply"
-					target="_blank"
-					class="h-14 px-10 text-[15px] font-semibold rounded-full bg-[#141414] text-white hover:bg-[#262626] transition-all duration-300 cursor-pointer"
-				>
-					Apply now
-				</Button>
 			</div>
 		</div>
 	</section>
@@ -1069,98 +905,12 @@
 		</div>
 	</section>
 
-	<!-- SECTION 8: SAVINGS CALCULATOR -->
-	<section class="py-24 md:py-32 bg-[#FAFAFA] border-y border-[#EBEBEB]">
-		<div
-			id="savings"
-			class="container mx-auto px-6 md:px-4 max-w-4xl transition-[opacity,transform] duration-700 ease-out {savingsVisible
-				? 'opacity-100 translate-y-0'
-				: 'opacity-0 translate-y-6'}"
-		>
-			<div class="text-center mb-16">
-				<h2 class="text-3xl md:text-5xl font-bold tracking-tight mb-6 text-[#141414]">
-					Why hire a department?
-				</h2>
-				<p class="text-[#8F8F8F] text-lg font-light max-w-2xl mx-auto leading-relaxed">
-					Replicate the output of a $150k+/year growth team for a fraction of the cost.
-				</p>
-			</div>
-
-			<div class="grid md:grid-cols-2 gap-8 items-center">
-				<!-- Old Way -->
-				<div class="p-8 rounded-2xl bg-white border border-[#EBEBEB] opacity-70">
-					<div class="flex justify-between items-center mb-6">
-						<h3 class="text-xl font-bold text-[#8F8F8F]">The Old Way</h3>
-						<span class="text-xs uppercase tracking-wider font-bold text-[#FF4D4D]">Expensive</span>
-					</div>
-					<div class="space-y-4 mb-8">
-						<div class="flex justify-between text-sm">
-							<span class="text-[#4A4A4F]">Head of Growth</span>
-							<span class="text-[#141414] font-medium">$120k+</span>
-						</div>
-						<div class="flex justify-between text-sm">
-							<span class="text-[#4A4A4F]">SDR / Content Lead</span>
-							<span class="text-[#141414] font-medium">$60k+</span>
-						</div>
-						<div class="flex justify-between text-sm">
-							<span class="text-[#4A4A4F]">Recruiting & Training</span>
-							<span class="text-[#141414] font-medium">Months</span>
-						</div>
-					</div>
-					<div class="pt-6 border-t border-[#EBEBEB] flex justify-between items-center">
-						<span class="text-sm text-[#4A4A4F] font-bold">Total Year 1</span>
-						<span class="text-2xl font-bold text-[#4A4A4F]">$180,000+</span>
-					</div>
-				</div>
-
-				<div class="flex flex-col">
-					<div
-						class="relative p-8 rounded-2xl bg-[#141414] text-white shadow-xl transform md:scale-105"
-					>
-						<div
-							class="absolute -top-4 -right-4 bg-white text-[#141414] px-4 py-1.5 rounded-full text-xs font-bold shadow-md border border-[#E5E5E5]"
-						>
-							SAVE $160K/YR
-						</div>
-						<div class="flex justify-between items-center mb-6">
-							<h3 class="text-xl font-bold text-white">Eastline System</h3>
-							<span class="text-xs uppercase tracking-wider font-bold text-[#4AA9FF]"
-								>Efficient</span
-							>
-						</div>
-						<div class="space-y-4 mb-8">
-							<div class="flex justify-between text-sm">
-								<span class="text-white/60">Full Growth System</span>
-								<span class="text-white font-medium">Included</span>
-							</div>
-							<div class="flex justify-between text-sm">
-								<span class="text-white/60">Implementation</span>
-								<span class="text-white font-medium">8 Weeks</span>
-							</div>
-							<div class="flex justify-between text-sm">
-								<span class="text-white/60">Asset Ownership</span>
-								<span class="text-white font-medium">100% Yours</span>
-							</div>
-						</div>
-						<div class="pt-6 border-t border-white/20 flex justify-between items-center">
-							<span class="text-sm text-white/60 font-bold">Total Investment</span>
-							<span class="text-2xl font-bold text-white">$20,000</span>
-						</div>
-					</div>
-					<p class="text-center mt-8 text-[#8F8F8F] text-sm md:translate-x-0 md:mt-10">
-						Multiple payment plans available
-					</p>
-				</div>
-			</div>
-		</div>
-	</section>
-
 	<!-- SECTION 11: FINAL CTA -->
 	<section class="py-24 md:py-32 bg-white">
 		<div class="container mx-auto px-6">
 			<div
 				id="final-cta"
-				class="max-w-4xl mx-auto transition-[opacity,transform] duration-700 ease-out flex flex-col items-center {finalCTAVisible
+				class="max-w-5xl mx-auto transition-[opacity,transform] duration-700 ease-out flex flex-col items-center {finalCTAVisible
 					? 'opacity-100 translate-y-0'
 					: 'opacity-0 translate-y-6'}"
 			>
@@ -1190,7 +940,7 @@
 						</div>
 
 						<p class="text-[#8F8F8F] text-sm">
-							8-week implementation · No long-term lock-in · Payment plans
+							8-week implementation · No long-term lock-in · Zero Risk
 						</p>
 					</div>
 				</div>
@@ -1200,14 +950,11 @@
 
 	<!-- SECTION 12: FOOTER -->
 	<footer class="py-12 bg-[#141414] border-t border-[#262626]">
-		<div class="container mx-auto px-6 md:px-4 max-w-4xl">
+		<div class="container mx-auto px-6 md:px-4 max-w-5xl">
 			<div class="flex flex-col md:flex-row md:items-center md:justify-between gap-8">
 				<div>
 					<p class="text-white/40 text-sm mb-2">
-						<span class="text-white/60 font-medium">For:</span> B2B SaaS with PMF, $20K–$200K MRR
-					</p>
-					<p class="text-white/40 text-sm">
-						<span class="text-white/60 font-medium">Not for:</span> Pre-PMF, agencies, service businesses
+						<span class="text-white/60 font-medium">For:</span> B2B SaaS
 					</p>
 				</div>
 				<div class="flex items-center gap-6">
